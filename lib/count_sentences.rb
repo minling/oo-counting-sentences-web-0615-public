@@ -4,5 +4,12 @@
 class String
   def count_sentences
     # code goes here
+    self.scan(/\.+|\?+|!+/).count
   end
 end
+
+#  to put in regular expression
+# str.scan(")
+
+#self is always the reciever of the method you just called
+#+ is at each ! mark 
